@@ -27,8 +27,8 @@ definition(
 		author: "RainLake",
 		description: "Connect your Kasa devices to SmartThings.",
 		category: "SmartThings Labs",
-		iconUrl: "https://s3.amazonaws.com/smartapp-icons/Partner/ecobee.png",
-		iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Partner/ecobee@2x.png",
+		iconUrl: "https://raw.githubusercontent.com/rainlake/smartthings/master/smartapps/kasa/kasa.jpg",
+		iconX2Url: "https://raw.githubusercontent.com/rainlake/smartthings/master/smartapps/kasa/kasa.jpg",
 		singleInstance: true
 ) {
 	

@@ -289,7 +289,7 @@ def getDeviceLastActivity(child) {
 def sendCommand(child, attributeName, attributeValue) {
 	if (login()) {	    	
 		//Send command
-        params = [
+        def params = [
         	uri: getApiURL(),
         	path: "/api/v4/deviceattribute/putdeviceattribute",
             headers: [
@@ -303,7 +303,7 @@ def sendCommand(child, attributeName, attributeValue) {
                  AttributeValue: attributeValue
             ]
         ]
-		httputJson(params) {}
+		httpPutJson(params) {}
 		return true
 	} 
 }
